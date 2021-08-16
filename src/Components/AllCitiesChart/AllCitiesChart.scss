@@ -1,0 +1,14 @@
+.chart_container {
+  padding: 1rem;
+  // background: var(--navy-blue);
+  // background: linear-gradient(var(grad1), var(grad2), transparent);
+  background: linear-gradient(#b9ecef, #f4f1f6, #fffefedb);
+  border: 1.5rem solid white;
+  border-radius: 10px;
+  color: var(font-color);
+  h3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+}

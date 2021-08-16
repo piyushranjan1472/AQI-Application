@@ -1,0 +1,23 @@
+.info_card_container {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.info_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #98c2ce;
+    width: 30%;
+    // justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.mask {
+    flex-basis: 36%;
+    font-size: 32px;
+}

@@ -1,0 +1,34 @@
+.home_container {
+  display: flex;
+  justify-content: space-between;
+
+  .table_container {
+    // flex-basis: 45%;
+    width: 45%;
+  }
+
+  .charts__container {
+    // flex-basis: 65%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.bar_container {
+  margin-top: 20px;
+}
+
+.footer {
+  min-height: 30px;
+  background: var(--navy-blue);
+  color: var(font-color);
+  text-align: center;
+
+  a {
+    color: var(font-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

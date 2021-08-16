@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"); */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0.6rem 3rem 0 3rem;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(0deg, hsla(0, 0%, 95%, 1) 0%, hsla(0, 0%, 92%, 1) 100%); */
+  /* background: #c5e6ed; */
+  background: radial-gradient(
+    circle,
+    hsla(188, 41%, 62%, 1) 15%,
+    hsla(0, 0%, 91%, 1) 100%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --navy-blue: #046875;
+  --grad1: #b9ecef;
+  --grad2: #f4f1f6;
+  --font-color: #4a797d;
+}
