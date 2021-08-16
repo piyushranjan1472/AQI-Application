@@ -5,7 +5,7 @@ import CityCard from "../CityCard/CityCard";
 import { useStateValue } from "../../Context-management/StateProvider";
 import AllCitiesChart from "../AllCitiesChart/AllCitiesChart";
 
-const BASE_URL = "ws://city-ws.herokuapp.com/";
+const BASE_URL = "wss://city-ws.herokuapp.com/";
 
 
 export default function Home() {
