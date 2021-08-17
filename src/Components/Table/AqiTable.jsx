@@ -36,7 +36,6 @@ export default function AqiTable({ getSelectedCity }) {
             <th>Last Updated</th>
           </tr>
         </thead>
-
         <tbody>{aqiData && rows_list}</tbody>
       </table>
       <div className="note">*Note : <span> Click on the city to get the live status</span></div>

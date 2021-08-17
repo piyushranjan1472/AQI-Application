@@ -42,8 +42,6 @@ export default function Home() {
       <div className="bar_container">
         <AllCitiesChart />
       </div>
-
-      {/* <div className="footer"> Created by <a href="https://github.com/anusha-sci">Anusha</a> </div> */}
     </>
   );
 }
